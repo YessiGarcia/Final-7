@@ -2,11 +2,70 @@ doctype html
 html
 	head
 		meta(charset="utf-8")
+		meta(name="viewport", content="width=device-width, initial-scale=1.0")
 		title Proyecto final
 		link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css")
 		link(rel="stylesheet", href= "css/style.css")
 	body
-		section
+		nav
+			div(class="nav-wrapper")
+				a(href="index.html",class="brand-logo left")
+					div(id="logo")
+				ul(id="nav-mobile",class="right hide-on-med-and-down")
+		.aboutus
+			.row.primero
+				h3 About us
+				h5 Why our Clients love to work with us.
+			.row.segundo
+				.col.m6
+					div(id="principal")
+				p.col.m6  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum excepturi, et nesciunt suscipit, magnam maiores modi, fugit quam consectetur alias commodi? Libero deleniti optio, maiores nisi consequuntur nihil minima veritatis.
+			.row.tercero
+				.col.m4.center
+					.tercio.rojo
+					h5 Incredible responsive
+					p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, vel, explicabo.
+				.col.m4.center
+					.tercio.azul
+					h5 Superior Tipography
+					p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, vel, explicabo.
+				.col.m4.center
+					.tercio.amarillo
+					h5 Swift Page Builder
+					p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, vel, explicabo.
+			.row.marca-agua
+				.col.m6.center
+					h4 Triangle Corporate Template
+					p A responsive, retina-ready & wide multipurpose template
+				.col.m2.center
+					a TAKE THE TOUR
+				.col.m3.moto
+			.row.center
+				h2 Meet the team
+				p  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+			.row.cuarteto.center
+				.col.m3
+					img(src="images/aboutus/2.jpg")
+					h4 John Doe
+					p CEO & Developer
+				.col.m3
+					img(src="images/aboutus/3.jpg")
+					h4 John Doe
+					p CEO & Developer
+				.col.m3
+					img(src="images/aboutus/4.jpg")
+					h4 John Doe
+					p CEO & Developer
+				.col.m3
+					img(src="images/aboutus/1.jpg")
+					h4 John Doe
+					p CEO & Developer
+
+		footer
 
 		script(type="text/javascript", src="http://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.min.js")
+		script(src="http://code.jquery.com/jquery-3.2.1.min.js", integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=", crossorigin="anonymous")
 		script(src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js")
+		script(type="text/javascript", src="template.js")
+		script(type="text/javascript", src="handlebars.js")
+

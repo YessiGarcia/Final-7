@@ -15,7 +15,7 @@ nav {
 .tercero {
   margin-top: 70px; }
 
-.tres {
+.tercio {
   width: 80px;
   height: 85px;
   display: inline-block; }
@@ -41,6 +41,10 @@ nav {
     background-image: url("../images/home/tour-icon2.png");
     height: 160px;
     width: 100%; }
+
+.cuarteto img {
+  height: 300px;
+  width: 300px; }
 
 footer {
   background-image: url("../images/home/footer.png");

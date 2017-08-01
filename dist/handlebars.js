@@ -5,7 +5,7 @@ var data ={};
 Handlebars.registerHelper("linkto", function(url, name){
 	var name = Handlebars.Utils.escapeExpression(name),
 		url = Handlebars.Utils.escapeExpression(url),
-		link = "<a href=\'" + location.protocol + "//" + location.hots + "/" + url + ".html\'>" + name + "</a>"
+		link = "<a> href=\'" + location.protocol + "//" + location.hots + "/" + url + ".html\'>" + name + "</a>"
 
 	return new Handlebars.SafeString(link);
 })
