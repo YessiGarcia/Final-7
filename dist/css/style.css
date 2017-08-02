@@ -7,6 +7,9 @@ nav {
   nav ul li a {
     color: gray; }
 
+.seccion {
+  margin-top: 100px; }
+
 .aboutus #principal {
   background-image: url("../images/aboutus/1.png");
   height: 200px;
@@ -50,3 +53,8 @@ footer {
   background-image: url("../images/home/footer.png");
   width: 100%;
   height: 650px; }
+  footer .row .col img, footer .row .col h5 {
+    display: block;
+    margin: 0 0 40px 180px; }
+  footer .row .offset-m1 .h5 {
+    margin: 40px 0 40px 0; }

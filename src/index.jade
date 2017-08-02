@@ -4,7 +4,7 @@ html
 		meta(charset="utf-8")
 		meta(name="viewport", content="width=device-width, initial-scale=1.0")
 		title Proyecto final
-		link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css")
+		link(rel="stylesheet", href="../node_modules/materialize-css/dist/css/materialize.min.css")
 		link(rel="stylesheet", href= "css/style.css")
 	body
 		nav
@@ -12,7 +12,7 @@ html
 				a(href="index.html",class="brand-logo left")
 					div(id="logo")
 				ul(id="nav-mobile",class="right hide-on-med-and-down")
-		.aboutus
+		.aboutus.seccion
 			.row.primero
 				h3 About us
 				h5 Why our Clients love to work with us.
@@ -20,7 +20,7 @@ html
 				.col.m6
 					div(id="principal")
 				p.col.m6  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum excepturi, et nesciunt suscipit, magnam maiores modi, fugit quam consectetur alias commodi? Libero deleniti optio, maiores nisi consequuntur nihil minima veritatis.
-			.row.tercero
+			.row.tercero.seccion
 				.col.m4.center
 					.tercio.rojo
 					h5 Incredible responsive
@@ -33,7 +33,7 @@ html
 					.tercio.amarillo
 					h5 Swift Page Builder
 					p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, vel, explicabo.
-			.row.marca-agua
+			.row.marca-agua.seccion
 				.col.m6.center
 					h4 Triangle Corporate Template
 					p A responsive, retina-ready & wide multipurpose template
@@ -43,29 +43,64 @@ html
 			.row.center
 				h2 Meet the team
 				p  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-			.row.cuarteto.center
+			.row.cuarteto.center.seccion
 				.col.m3
 					img(src="images/aboutus/2.jpg")
-					h4 John Doe
+					h5 John Doe
 					p CEO & Developer
 				.col.m3
 					img(src="images/aboutus/3.jpg")
-					h4 John Doe
+					h5 John Doe
 					p CEO & Developer
 				.col.m3
 					img(src="images/aboutus/4.jpg")
-					h4 John Doe
+					h5 John Doe
 					p CEO & Developer
 				.col.m3
 					img(src="images/aboutus/1.jpg")
-					h4 John Doe
-					p CEO & Developer
+					h5 John Doe
+					p CEO & Develope
+			.row.center.seccion
+				img(src="images/home/under.png")
 
 		footer
+			.row
+				.col.m3
+					h5 Testimonial
+				.col.m3.offset-m1
+					h5 Contacts
+				.col.m5
+					h5 Send a message
+			.row
+				.col.m3
+					img(src="images/home/profile1.png")
+					img(src="images/home/profile2.png")
+				.col.m2
+					p
+						spam "
+						| Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate nostrum praesentium doloribus.
+						span "
+						p -John Kails
+					p
+						spam "
+						| Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate nostrum praesentium doloribus.
+						span "
+						p -Abraham Josef
+				.col.m3.offset-m1
+					p Email:email@email.com
+					p Phone:+1234567890
+					p Fax:+2345767890
+					h5.h5 Adress
+					p UnitC2.St.Vincent's Trading
+					p Feeder Road
+					p Bristol, B$2 OUY
+					p United kingdom
 
-		script(type="text/javascript", src="http://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.min.js")
-		script(src="http://code.jquery.com/jquery-3.2.1.min.js", integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=", crossorigin="anonymous")
-		script(src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js")
+				.col.m3
+
+		script(type="text/javascript", src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.min.js")
+		script(src="../node_modules/jquery/dist/jquery.min.js", integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=", crossorigin="anonymous")
+		script(src="../node_modules/materialize-css/dist/js/materialize.min.js")
 		script(type="text/javascript", src="template.js")
 		script(type="text/javascript", src="handlebars.js")
 
