@@ -98,4 +98,26 @@ footer {
 
 .montana {
   background-image: url("../images/home/slider/hill.png");
-  height: 350px; }
+  height: 350px;
+  position: relative; }
+  .montana img {
+    position: relative; }
+  .montana .birds1 {
+    top: 180px; }
+  .montana .birds2 {
+    top: 90px;
+    left: 300px; }
+  .montana .sun {
+    top: 160px;
+    right: 80px; }
+  .montana .house {
+    top: 110px;
+    left: 100px; }
+
+.parrafos {
+  display: flex;
+  justify-content: space-between; }
+  .parrafos .parrafo {
+    margin: 50px; }
+  .parrafos .parrafo-centro {
+    margin: 50px 0 50px 0; }
