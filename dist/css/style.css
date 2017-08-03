@@ -124,3 +124,7 @@ footer {
 
 .right {
   opacity: 0.3; }
+
+.imagenes-home .row img, .imagenes-home .row p, .imagenes-home .row h4 {
+  margin: 40px;
+  text-align: right; }
