@@ -1,3 +1,6 @@
+body {
+  color: gray; }
+
 nav {
   background-color: white; }
   nav #logo {
@@ -55,6 +58,44 @@ footer {
   height: 650px; }
   footer .row .col img, footer .row .col h5 {
     display: block;
-    margin: 0 0 40px 180px; }
+    margin: 20px 0 40px 180px; }
+  footer .row .col textarea {
+    height: 100px; }
+  footer .row .col button {
+    height: 50px;
+    width: 100%;
+    border: none;
+    background-color: aqua;
+    color: white;
+    margin-top: 50px;
+    font-size: 30px; }
   footer .row .offset-m1 .h5 {
     margin: 40px 0 40px 0; }
+  footer .derechos {
+    margin-top: 100px; }
+    footer .derechos p {
+      margin: 0;
+      padding: 0;
+      color: white; }
+
+.imagenes-portafolio {
+  height: 100%; }
+
+.menu, .pie-de-pagina {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 100px 0 50px 0; }
+
+.singup {
+  border: solid 1px aqua;
+  color: aqua;
+  background: white;
+  margin-top: 20px;
+  width: 20%;
+  height: 30px;
+  border-radius: 5%; }
+
+.montana {
+  background-image: url("../images/home/slider/hill.png");
+  height: 350px; }
