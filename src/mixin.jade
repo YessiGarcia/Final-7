@@ -1,4 +1,70 @@
+mixin encabezado(titulo)
+	meta(charset="utf-8")
+	meta(name="viewport", content="width=device-width, initial-scale=1.0")
+	title #{titulo}
+	link(rel="stylesheet", href="../node_modules/materialize-css/dist/css/materialize.min.css")
+	link(rel="stylesheet", href= "css/style.css")
+
+mixin navegador
+	nav
+		div(class="nav-wrapper")
+			a(href="index.html",class="brand-logo left")
+				div(id="logo")
+			ul(id="nav-mobile",class="right hide-on-med-and-down")
+
 mixin proyecto(imagen, encabezado)
-					.col.m3
-						img(src="images/portfolio/#{imagen}.jpg")
-						p #{encabezado}
+	.col.m3
+		img(src="images/portfolio/#{imagen}.jpg")
+		p #{encabezado}
+
+mixin pie-pagina()
+	.row.center.seccion
+		img(src="images/home/under.png")
+	footer
+		.row
+			.col.m3
+				h5 Testimonial
+			.col.m3.offset-m1
+				h5 Contacts
+			.col.m5
+				h5 Send a message
+		.row
+			.col.m3
+				img(src="images/home/profile1.png")
+				img(src="images/home/profile2.png")
+			.col.m2
+				p
+					spam "
+					| Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate nostrum praesentium doloribus.
+					span "
+					p -John Kails
+				p
+					spam "
+					| Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate nostrum praesentium doloribus.
+					span "
+					p -Abraham Josef
+			.col.m3.offset-m1
+				p Email:email@email.com
+				p Phone:+1234567890
+				p Fax:+2345767890
+				h5.h5 Adress
+				p UnitC2.St.Vincent's Trading
+				p Feeder Road
+				p Bristol, B$2 OUY
+				p United kingdom
+			.col.m3
+				form
+					input(type="text", placeholder="Name")
+					input(type="text", placeholder="Email")
+					textarea(placeholder="Your text here")
+					button(type="submit") SUBMIT
+		.row.center.derechos
+			p Your Company 2014. All Rights Reserved
+			p Created by Yessica
+
+mixin enlaces()
+	script(type="text/javascript", src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.min.js")
+	script(src="../node_modules/jquery/dist/jquery.min.js", integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=", crossorigin="anonymous")
+	script(src="../node_modules/materialize-css/dist/js/materialize.min.js")
+	script(type="text/javascript", src="template.js")
+	script(type="text/javascript", src="handlebars.js")
